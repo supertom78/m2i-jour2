@@ -71,9 +71,11 @@ Pour résumé, Dummy peut-être instancié sans aucune dépendance, vous n’ave
 
 D’ailleurs, d’ailleurs hein !
 
+petite correction
+
 Voici comment vous devriez faire votre classe DummyUser si vous voulez restreindre son fonctionnement :
 
-class DummyUser implements UserInterface
+cgit push --set-upstream origin prlass DummyUser implrments UserInterface
 {
     public function getPassword()
     {
